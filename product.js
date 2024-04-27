@@ -6,7 +6,16 @@ fetch('https://fakestoreapi.com/products/categories')
 fetch('https://fakestoreapi.com/products/category/jewelery')
             .then(res=>res.json())
             .then(json=>console.log(json))
-
+fetch('https://fakestoreapi.com/products/category/electronics')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+fetch('https://fakestoreapi.com/products/category/mens clothing')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+fetch('https://fakestoreapi.com/products/category/womens clothing')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+            
 
 function displayProduct(products){
     dataDisplay.innerHTML=""
